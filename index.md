@@ -4,9 +4,9 @@ title: dirt's portfolio
 ---
 {% include socials.html %}
 <div id="aboutMe">
-        <h2>about me</h2>
-        <p>Hi, im dirt! I'm a 15 year old 3D/pixel(?) artist and (primarily web) developer from texas.</p>
-    </div>
+    <h2>about me</h2>
+    <p>Hi, im dirt! I'm a 15 year old 3D/pixel(?) artist and (primarily web) developer from texas.</p>
+</div>
 
 <h2>art</h2>
 
@@ -19,7 +19,7 @@ title: dirt's portfolio
 
 {% include link.html title='tub' imgsrc='art/tub.png' description="made this as a discord server icon, but I think it looks pretty cool." date='march 2022' link='articles/tub.md' %}
 
-{% include link.html title='gaming puter' imgsrc='art/gaming puter.png' description="nothing too special about this" date='december 2021' link='articles/puter.md' %}
+{% include link.html title='gaming puter' imgsrc='art/gaming puter.png' description="this marks my first experience with the blender shader graph, which played a huge role in plaza. also the origin of Clicko the Cursor, your mouse cursor!" date='december 2021' link='articles/puter.md' %}
 
 {% include link.html title='unfinished 1' imgsrc='art/unfinished 1.jpg' description="I really liked the start pf this, but literally just had no idea where to go from here." date='either q4 2022 or q1 2023' link='articles/unfinished1.md' %}
 
@@ -40,74 +40,36 @@ title: dirt's portfolio
                 <source src="art\test renderrrr.mp4" type="video/mp4">
                 if you dont see this, sucks to suck. protip: try swallowing
                 </video>
-            <p>eyes emoji? this is a test render for an animation im working on</p>
-            <p>circa: january 2023 - present </p>
+            <p>this was the test render for an animation i was working on. i really liked it but i never wrote a script so it would never get finished basically, and everything i put into it was just shit i thought looked cool (which isnt a bad way to make things, but it doesnt work unless you already got a vision (and i did not have one))</p>
+            <p>circa: january 2023 - like april or may at the latest </p>
         </a>
     </div>
 </div>
 <h2>websites</h2>
 <div id="code">
 
-    {% include link.html title='penis world' imgsrc='penis_introduction.png' description="this is a shitpost webcomic that never got finished." date='may 2022' link='https://cupofdirtfordinner.github.io/penis-world' %}
+    {% include link.html title='penis world' imgsrc='penis_introduction.png' description="this is a shitpost webcomic that never got finished" date='august 2023' link='https://cupofdirtfordinner.github.io/penis-world' %}
 
-    <div>
-        <a href="https://cupofdirtfordinner.github.io/penis-world">
-            <img src="penis_introduction.png">
-            <p>this is penis world, a shitpost webcomic that never got finished.</p>
-            <p>circa: august 2023 </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://cupofdirtfordinner.github.io/penguintime">
-            <img src="penguintime.png">
-            <p>this is a clock that looks like the Penguin Standard Time clock from club penguin, with some small changes. Namely it's 24 hours instead of 12, and it counts seconds.</p>
-            <p>circa: april 2023 - present (working on making the site look better on mobile)</p>
-        </a>
-    </div>
-    <div>
-        <a href="https://cupofdirtfordinner.github.io/scalper">
-            <img src="scalper.png">
-            <p>this is an idle game inspired by Universal Paperclips and Grindcraft. I still want to finish it at some point.</p>
-            <p>circa: march 2023 (maybe a little before then)</p>
-        </a>
-    </div>
-    <div>
-        <a href="https://mesa.rip/">
-            <img src="mesarip.png">
-            <p>Mesa.rip is an unblocked game website I made by myself. It was a successor to <a href="https://mesacomplex.tk/" style="text-decoration:underline;color:blue">the mesa complex</a>,  though Development has mostly stopped because putting ads on it seemed infeasable.</p>
-            <p>circa: q1 - q4 2022</p>
-        </a>
-    </div>
+    {% include link.html title='penguin (standard) time' imgsrc='penguintime.png' description="this is a clock that looks like the Penguin Standard Time clock from club penguin, with some small changes. Namely it's 24 hours instead of 12, and it counts seconds. warning, looks pretty jank on mobile" date='april 2023' link='https://cupofdirtfordinner.github.io/penguintime' %}
+
+    {% include link.html title='penguin (standard) time' imgsrc='penguintime.png' description="this is a clock that looks like the Penguin Standard Time clock from club penguin, with some small changes. Namely it's 24 hours instead of 12, and it counts seconds. warning, looks pretty jank on mobile" date='april 2023' link='https://cupofdirtfordinner.github.io/penguintime' %}
+
+    {% include link.html title='scalper' imgsrc='scalper.png' description="this is an idle game inspired by Universal Paperclips and Grindcraft. I still want to finish it at some point, but it'd need a lotta devtools to make adding shit way less of a sloooog" date='march 2023 (maybe a lil before? idk)' link='https://cupofdirtfordinner.github.io/scalper' %}
+
+    {% include link.html title='mesa.rip' imgsrc='mesarip.png' description="Mesa.rip is an unblocked game website I made by myself. It was a successor to <a href="https://mesacomplex.tk/" style="text-decoration:underline;color:blue">the mesa complex</a>,  though Development has mostly stopped because putting ads on it seemed infeasable." date='q1 - q4 2022' link='https://mesa.rip/' %}
+
 </div>
 <h2>etc.</h2>
+
 <div id="garbage">
-    <div>
-        <a href="https://sok-stories.com/?ENKQ">
-            <img src="dungeoncross.png">
-            <p>Dungeoncross was a game I made in sok stories, a very simple fantasy console where the only code you can write is like object + object (spawns) object. I managed to make a full ass roguelite in it, which is pretty cool  I think.</p>
-            <p>circa: december 2021</p>
-        </a>
-    </div>
-    <div>
-        <a href="https://scratch.mit.edu/projects/416984061/">
-            <img src="14yoonline.png">
-            <p>This was an old idle game I made in scratch. I dumped like hours into making it, and I like to think it's relatively polished.</p>
-            <p>circa: september - august 2020</p>
-        </a>
-    </div>
-    <div>
-        <a href="">
-            <img src="plat.jpg">
-            <p>I watched a miziziziz tutorial on making a platformer and thought I could make a full collectathon metroidvania. I was wrong, but I might revisit the idea one day because there's some potential, but I'd have to restart because the project files have been lost to time (that's code for a broken laptop)</p>
-            <p>circa: febuary 2022</p>
-        </a>
-    </div>
-    <div>
-        <a href="">
-            <img src="3dplat.gif">
-            <p>I wanted to start actually learning godot, so I started to make a 3D platformer and looked up a tutorial. Beyond adding a simple double jump, I did not actually learn godot. I made the placeholder assets of the skybox and the little t posing man, godspeed</p>
-        </a>
-    </div>
+    {% include link.html title='dungeonCross' imgsrc='dungeoncross.png' description="Dungeoncross was a game I made in sok stories, a very simple fantasy console where the only code you can write is like object + object (spawns) object. I managed to make a full ass roguelite in it, which is pretty cool I think" date='decemberish 2021' link='https://sok-stories.com/?ENKQ' %}
+
+    {% include link.html title='14 year old online' imgsrc='14yoonline.png' description="his was an old idle game I made in scratch. I dumped like hours into making it, and I like to think it's relatively polished. also, ironically, i made this when i was like 12" date='september - august 2020' link='https://scratch.mit.edu/projects/416984061/' %}
+
+    {% include link.html title='plat (version 2)' imgsrc='plat.png' description="I watched a miziziziz tutorial on making a platformer and thought I could make a full collectathon metroidvania. I was wrong, but I might revisit the idea one day because there's some potential, but I'd have to restart because the project files have been lost to time (that's code for a broken laptop) (SPOILER: I DID)" date='febuary like 2022' link='https://thisgameisunplayableanddoesntexistanymorealsothiswebsitedoesnotexisthahaloserkillyourselfinreallifelmaolmaolmaolololrofllollmao.com/ifyoubuythisdomainiwillcrushyourthroatbutidontthinkyoucanbecauseitstoolong.html' %}
+
+    {% include link.html title='3dplat (not working title (because im not working on it))' imgsrc='dungeoncross.png' description="I wanted to start actually learning godot, so I started to make a 3D platformer and looked up a tutorial. Beyond adding a simple double jump, I did not actually learn godot. I made the placeholder assets of the skybox and the little t posing man, godspeed" date='early 2023 i dont fucking remember' link='https://thisgameisunplayableanddoesntexistanymorealsothiswebsitedoesnotexisthahaloserkillyourselfinreallifelmaolmaolmaolololrofllollmao.com/ifyoubuythisdomainiwillcrushyourthroatbutidontthinkyoucanbecauseitstoolong.html' %}
+
     <div>
         <a href="">
             <video width="320" height="240" controls>
