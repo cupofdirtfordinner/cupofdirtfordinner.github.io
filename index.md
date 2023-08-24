@@ -48,16 +48,15 @@ title: dirt's portfolio
 <h2>websites</h2>
 <div id="code">
 
-    {% include link.html title='penis world' imgsrc='penis_introduction.png' description="this is a shitpost webcomic that never got finished" date='august 2023' link='https://cupofdirtfordinner.github.io/penis-world' %}
-
-    {% include link.html title='penguin (standard) time' imgsrc='penguintime.png' description="this is a clock that looks like the Penguin Standard Time clock from club penguin, with some small changes. Namely it's 24 hours instead of 12, and it counts seconds. warning, looks pretty jank on mobile" date='april 2023' link='https://cupofdirtfordinner.github.io/penguintime' %}
+    {% include link.html title='penis world' imgsrc='penis_introduction.png' description="this is a shitpost webcomic that never got finished" date='may 2023' link='https://cupofdirtfordinner.github.io/penis-world' %}
 
     {% include link.html title='penguin (standard) time' imgsrc='penguintime.png' description="this is a clock that looks like the Penguin Standard Time clock from club penguin, with some small changes. Namely it's 24 hours instead of 12, and it counts seconds. warning, looks pretty jank on mobile" date='april 2023' link='https://cupofdirtfordinner.github.io/penguintime' %}
 
     {% include link.html title='scalper' imgsrc='scalper.png' description="this is an idle game inspired by Universal Paperclips and Grindcraft. I still want to finish it at some point, but it'd need a lotta devtools to make adding shit way less of a sloooog" date='march 2023 (maybe a lil before? idk)' link='https://cupofdirtfordinner.github.io/scalper' %}
 
-    {% include link.html title='mesa.rip' imgsrc='mesarip.png' description="Mesa.rip is an unblocked game website I made by myself. It was a successor to <a href="https://mesacomplex.tk/" style="text-decoration:underline;color:blue">the mesa complex</a>,  though Development has mostly stopped because putting ads on it seemed infeasable." date='q1 - q4 2022' link='https://mesa.rip/' %}
+    {% include link.html title='mesa.rip' imgsrc='mesarip.png' description="Mesa.rip is an unblocked game website I made by myself. It was a successor to another site called the Mesa Complex,  though Development has mostly stopped because putting ads on it seemed infeasable." date='q1 - q4 2022' link='https://mesa.rip/' %}
 
+    {% include link.html title='penis world (again)' imgsrc='penis world 2.png' description="this is a reimagining of what penis world would've been, and I think it is probably the coolest looking website i've ever made, i've been working on this a lot in school and have been adding stuff like daily." date='august 2023' link='https://cupofdirtfordinner.github.io/penis-world-2' %}
 </div>
 <h2>etc.</h2>
 
@@ -76,7 +75,9 @@ title: dirt's portfolio
                 <source src="gaydev.mp4" type="video/mp4">
                 if you dont see this, sucks to suck. protip: kill yourself
                 </video>
-            <p>After giving up on the 3d platformer for being too hard to code, I'm not sure why I chose to make something harder instead. either way, im still working on this and learning bit by bit; the project looks a little different now but i dont feel like recording a new video bc you get the dealio, it's an indev vr game</p>
+            <p>After giving up on the 3d platformer for being too hard to code, I'm not sure why I chose to make something harder instead. I stopped working on this because I couldn't figure out how to check for button presses.</p>
         </a>
     </div>
+
+    {% include link.html title='plat (for real this time)' imgsrc='https://img.itch.zone/aW1hZ2UvMjEzNzcyOS8xMjcwNjk5Mi5wbmc=/original/DDf7kk.png' description="finally doing what 12 year old me always wanted me to do. This game has a pretty solid foundation, and im confident it'll get finished one day. those are famous last words, though" date="july 2023 - now (late august 2023); development has slowed, though" link='https://dirtxd.itch.io/plat-prototype-again' %}
 </div>
