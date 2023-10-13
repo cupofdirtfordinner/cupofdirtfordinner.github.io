@@ -1,0 +1,124 @@
+<head>
+<title>cool portfolio</title>
+<style>
+
+body {
+  background-color:#ff1f57;
+  overflow-y: hidden;
+}
+
+
+.flavor {
+  transform:translate(-112%, 0px);
+  font-size: 2em;
+}
+
+#socials {
+  overflow-x:auto;
+  overflow-y:hidden;
+  height:146px;
+  background-color:rgba(0,0,0,0.2);
+  width:100%;
+}
+
+#socials * {
+  display:inline-block;
+  height:100%;
+  width:auto;
+}
+
+#socials2 {
+  overflow-x:auto;
+  overflow-y:hidden;
+  font-size:2em;
+  height: 1em;
+  background-color:rgba(0,0,0,0.2);
+  width:100%;
+}
+
+#socials2 * {
+  display:inline-block;
+  height:100%;
+  width:auto;
+  font-size:200%;
+}
+
+.top {
+  box-shadow: 0px 2px 4px black;
+  width: 100%;
+}
+
+.fakeabsolute {
+  margin-left:-8px;
+  margin-top:-8px;
+}
+
+#blog {
+  background-color:rgba(0,0,0,0.2);
+  overflow-y: scroll;
+  z-index: 1;
+}
+
+@media (orientation: landscape) {
+ #blog {
+   width:30vw;
+   height:100vh;
+   left:70vw;
+   top:0;
+   position:absolute;
+ }
+  #body {
+    width: 70vw;
+  }
+  .mobile {display:none;}
+}
+
+@media (orientation: portrait) {
+  #blog {
+    width: 100vw;
+    height: 40vw;
+    position: fixed;
+    bottom: 0;
+    margin-left:-8px;
+    margin-top:-8px;
+  }
+  #body {
+    width: 100vw;
+  }
+  .desktop {display:none;}
+}
+</style>
+</head>
+
+<div id="blog">
+  <div style="">I gave all of these titles for organization and seperation's sake, but I tend to write before I think of a title for stuff i make for myself instead of an algorithm. In other words, I know these titles suck, sorry
+  </div>
+  <h4>coral</h4>
+  In the background is my favorite color, a sort of pink/coral. not sure how it looks on your screen but this color makes me happy when i see it (which is why it's a common theme in my work, you might notice).
+  <br> <br>
+  Below is my favorite bird. I believe it is a Blue Hyacinnth Macaw, and it is my favorite bird because one time when I was working on the CSS for <a href="mesa.rip">mesa.rip</a> I needed a test image, and found this image upon googling the word "image" (or "picture", or something of the sort). Blue Hyacinth Macaws have been my go-to test image since. <br>
+  <img src="favorite bird.png" style="display:block;height:auto;width:100%;"/>
+  <br> <br>
+  </div>
+
+  <div id="body">
+<h3 class="top desktop fakeabsolute">hi, im dirt. This is a hub for some stuff i've made, and to the right are some paragraphs about things I like.</h3>
+<h3 class="top mobile fakeabsolute">hi, im dirt. This is a hub for some stuff i've made, and at the bottom are some paragraphs about things I like.</h3>
+
+<div style="">
+<a href="https://cupofdirtfordinner.newgrounds.com">
+	<img src="ng.png" />
+	<p class="flavor">newgrounds</p>
+</a>
+<a href="https://cupofdirtfordinner.tumblr.com">
+	<img src="ng.png" />
+	<p class="flavor">tumblr</p>
+</a>
+<a href="https://youtube.com/cupofdirtfordinner">
+	<img src="ng.png" />
+	<p class="flavor">youtube</p>
+</a>
+</div>
+<br>
+<div id="socials2" class="fakeabsolute" style="overflow-x:auto;width:100%;">PNID: cupofdirtfordinr</div>
+</div>

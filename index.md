@@ -5,7 +5,7 @@ title: dirt's portfolio
 {% include socials.html %}
 <div id="aboutMe">
     <h2>about me</h2>
-    <p>Hi, im dirt! I'm a 15 year old 3D/pixel(?) artist and (primarily web) developer from texas.</p>
+    <p>Hi, im dirt! I'm a 16 year old 3D/pixel(sometimes) artist and (primarily web) developer from texas.</p>
 </div>
 
 <h2>art</h2>
@@ -32,6 +32,8 @@ title: dirt's portfolio
  {% include link.html title='sloom' imgsrc='art/sloom large.gif' description="this, like the previous two entries, is again a sprite for a tower defense game that never got finished" date='may 2022' link='articles/gardefense.md' %}
 
   {% include link.html title='skeleton' imgsrc='art/skeletongiflarge.gif' description="dude you're never gonna believe this" date='may 2022' link='articles/gardefense.md' %}
+  
+  {% include link.html title='Aeroplane' imgsrc='art/untitled.png' description="funny bomb guy on an airplane! this is amongst a series of other small (like really small, like just playing with modifiers and stuff) projects i've been making at school, because they just let us install blender on those shitty dells. thank you, school " date='september 2023' link='articles/balrgh.md' %}
 
 
     <div>
@@ -57,6 +59,8 @@ title: dirt's portfolio
     {% include link.html title='mesa.rip' imgsrc='mesarip.png' description="Mesa.rip is an unblocked game website I made by myself. It was a successor to another site called the Mesa Complex,  though Development has mostly stopped because putting ads on it seemed infeasable." date='q1 - q4 2022' link='https://mesa.rip/' %}
 
     {% include link.html title='penis world (again)' imgsrc='penis world 2.png' description="this is a reimagining of what penis world would've been, and I think it is probably the coolest looking website i've ever made, i've been working on this a lot in school and have been adding stuff like daily." date='august 2023' link='https://cupofdirtfordinner.github.io/penis-world-2' %}
+
+    {% include link.html title='child-porn.zip' imgsrc='cp.png' description="I just thought it would be funny to own this domain" date='september? 2023' link='https://child-porn.zip' %}
 </div>
 <h2>etc.</h2>
 
@@ -79,5 +83,5 @@ title: dirt's portfolio
         </a>
     </div>
 
-    {% include link.html title='plat (for real this time)' imgsrc='https://img.itch.zone/aW1hZ2UvMjEzNzcyOS8xMjcwNjk5Mi5wbmc=/original/DDf7kk.png' description="finally doing what 12 year old me always wanted me to do. This game has a pretty solid foundation, and im confident it'll get finished one day. those are famous last words, though" date="july 2023 - now (late august 2023); development has slowed, though" link='https://dirtxd.itch.io/plat-prototype-again' %}
+    {% include link.html title='plat (for real this time)' imgsrc='https://img.itch.zone/aW1hZ2UvMjEzNzcyOS8xMjcwNjk5Mi5wbmc=/original/DDf7kk.png' description="unfinished 2.5D platformer, using the sprites I made when I was about 13. It had a good start but I just didn't really have it in me to finish the like 2 year development cycle this would've taken." date="july 2023 - late august 2023" link='https://dirtxd.itch.io/plat-prototype-again' %}
 </div>
